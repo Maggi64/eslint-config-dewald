@@ -146,7 +146,7 @@ module.exports = {
         "@typescript-eslint/no-useless-empty-export": "error",
         "@typescript-eslint/no-confusing-void-expression": ["warn", { "ignoreArrowShorthand": true, "ignoreVoidOperator": true }],
         "@typescript-eslint/switch-exhaustiveness-check": "warn",
-        "@typescript-eslint/indent": ["warn", 4, { "SwitchCase": "warn" }],
+        "@typescript-eslint/indent": ["warn", 4, { "SwitchCase": 1 }],
         "@typescript-eslint/keyword-spacing": "error",
         "@typescript-eslint/no-unused-expressions": ["error", { "allowShortCircuit": true, "allowTernary": true }],
         "@typescript-eslint/object-curly-spacing": ["error", "always", { "objectsInObjects": true }],
