@@ -95,7 +95,7 @@ module.exports = {
         "no-eval": "error",
         "no-lone-blocks": "error",
         "no-mixed-operators": "error",
-        "no-multiple-empty-lines": [2, { "max": "error", "maxEOF": 1 }],
+        "no-multiple-empty-lines": [2, { "max": 2, "maxEOF": 1 }],
         "no-return-await": "error",
         "no-self-assign": "off",
         "no-self-compare": "error",
