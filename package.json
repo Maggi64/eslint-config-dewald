@@ -13,6 +13,12 @@
   "dependencies": {
     "eslint": "8.36.0"
   },
+  "files": [
+    "index.js",
+    "package.json",
+    "package-lock.json",
+    "README.md"
+  ],
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "5.56.0",
     "@typescript-eslint/parser": "5.56.0",
