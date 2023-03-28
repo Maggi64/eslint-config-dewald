@@ -37,7 +37,7 @@ module.exports = {
             parser: "svelte-eslint-parser",
             parserOptions: {
                 parser: "@typescript-eslint/parser",
-                project: './*/tsconfig.json'
+                project: './**/tsconfig.json'
             },
         }
     ],
@@ -50,14 +50,14 @@ module.exports = {
         "import/resolver": {
             typescript: {
                 alwaysTryTypes: true,
-                project: './*/tsconfig.json',
+                project: './**/tsconfig.json',
             },
         }
     },
     parserOptions: {
         sourceType: "module",
         ecmaVersion: "latest",
-        project: './*/tsconfig.json',
+        project: './**/tsconfig.json',
         extraFileExtensions: [".svelte"]
     },
     rules: {
