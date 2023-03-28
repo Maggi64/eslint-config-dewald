@@ -184,6 +184,6 @@ module.exports = {
         "svelte/no-at-html-tags": "off",
         "svelte/valid-prop-names-in-kit-pages": "error",
         "svelte/require-store-reactive-access": "error",
-        "svelte/block-lang": ["error", { "script": "ts" }]
+        "svelte/block-lang": ["error", { "script": "ts", "style": ["postcss, scss"] }],
     },
 };
