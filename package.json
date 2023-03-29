@@ -11,7 +11,7 @@
   "author": "Maggi64",
   "license": "MIT",
   "dependencies": {
-    "eslint": "8.36.0"
+    "eslint": "8.37.0"
   },
   "files": [
     "index.js",
