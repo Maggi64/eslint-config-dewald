@@ -20,8 +20,8 @@
     "README.md"
   ],
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.56.0",
-    "@typescript-eslint/parser": "5.56.0",
+    "@typescript-eslint/eslint-plugin": "5.57.0",
+    "@typescript-eslint/parser": "5.57.0",
     "eslint-import-resolver-typescript": "3.5.3",
     "eslint-plugin-compat": "4.1.2",
     "eslint-plugin-deprecate": "0.7.0",
