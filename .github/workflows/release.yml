@@ -9,6 +9,10 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
+      - name:  'Automated Version Bump'
+        uses:  'phips28/gh-action-bump-version@master'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: npm install
       - uses: JS-DevTools/npm-publish@v1
         with:
