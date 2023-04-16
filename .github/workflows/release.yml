@@ -1,5 +1,12 @@
 name: NPM Publish
-on: push
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'package.json'
+      - 'package-lock.json'
+      - 'index.js'
 
 jobs:
   publish:
